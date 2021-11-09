@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  background-color: black;
+  font-family: Helvetica, sans-serif;
+}
+
+label {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#card {
+  background: #fbfbfb;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 500px;
+  width: 450px;
+  margin: auto;
+}
+
+#card-content {
+  padding: 12px 44px;
+}
+
+#card-title {
+  padding-bottom: 23px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+#submit-btn {
+  background: #1ed760;
+  border-radius: 21px;
+  border: none;
+  box-shadow: 0px 1px 6px #8e8e8e;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+  height: 42.3px;
+  margin: 25px auto 0 auto;
+  transition: all 0.5s ease;
+  width: 140px;
+}
+
+#submit-btn:hover {
+  box-shadow: 0px 1px 18px #fbfbfb;
+  background: #1ed760;
+}
+
+.form {
+  align-items: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-border {
+  height: 1px;
+  width: 100%;
+  border-radius: 50px;
+  background: #1ed760;
+}
+
+.form-content {
+  background: #fbfbfb;
+  border: none;
+  outline: none;
+  padding-top: 14px;
+}
+
+.underline-title {
+  background: #1ed760;
+  height: 3px;
+  margin: -0.3rem auto 0 auto;
+  width: 120px;
+  border-radius: 50px;
+}
